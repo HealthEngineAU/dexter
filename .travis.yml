@@ -18,6 +18,8 @@ deploy:
   file: build/*
   file_glob: true
   skip_cleanup: true
+  region: ap-southeast-2
+  local_dir: build
   upload-dir: dexter/$TRAVIS_BRANCH
   on:
     repo: HealthEngineAU/dexter
