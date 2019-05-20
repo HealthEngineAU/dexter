@@ -4,6 +4,9 @@ matrix:
   include:
   - go: 1.12.x
     script:
+    - mkdir $GOPATH/src/github.com/gini
+    - mv $GOPATH/src/github.com/HealthEngineAU/dexter $GOPATH/src/github.com/gini
+    - cd $GOPATH/src/github.com/gini/dexter
     - make vet
     - make test
     - OS=darwin make build
