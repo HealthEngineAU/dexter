@@ -21,5 +21,6 @@ deploy:
   region: ap-southeast-2
   local_dir: build
   upload-dir: dexter/$TRAVIS_BRANCH
+  acl: public_read
   on:
     repo: HealthEngineAU/dexter
