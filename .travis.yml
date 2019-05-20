@@ -23,4 +23,3 @@ deploy:
   upload-dir: dexter/$TRAVIS_BRANCH
   on:
     repo: HealthEngineAU/dexter
-    tags: true
