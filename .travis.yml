@@ -20,5 +20,5 @@ deploy:
   skip_cleanup: true
   upload-dir: dexter/$TRAVIS_BRANCH
   on:
-    repo: healthengineau/dexter
+    repo: HealthEngineAU/dexter
     tags: true
